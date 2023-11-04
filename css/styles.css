@@ -110,6 +110,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   padding: 24px 0;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
+  position: relative;
 }
 
 .link {
@@ -119,10 +123,6 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--pressed-state);
-}
-
-.nav-link {
-  position: relative;
 }
 
 .link-underline {
@@ -162,6 +162,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-text);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .contact.link:hover,
@@ -207,6 +210,9 @@ body {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .container .hero-button:hover,
@@ -351,6 +357,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .team-socials-link:hover,
@@ -435,6 +444,9 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--subtle-text);
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .customers-link:hover,
@@ -519,6 +531,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .footer-link:hover,
