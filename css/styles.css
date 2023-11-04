@@ -210,7 +210,7 @@ body {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
@@ -330,7 +330,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
@@ -417,7 +417,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--subtle-text);
-  transition-property: color;
+  transition-property: border-color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
@@ -504,7 +504,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
