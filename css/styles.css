@@ -16,6 +16,10 @@
   --white: #FFFFFF;
   --accent-color: #E7E9FC;
   --valid: #31D0AA;
+  --modal-background: #FCFCFC;
+
+  --tr-duration: 250ms;
+  --tr-fn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -189,6 +193,33 @@ body {
 .container .hero-button:hover,
 .container .hero-button:focus {
   background-color: var(--pressed-state);
+}
+
+.modal-window {
+  position: fixed;
+  inset: 0 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  pointer-events: all;
+  transition-property: opacity;
+  transition-timing-function: var(--tr-fn);
+  transition-duration: var(--tr-duration);
+}
+
+.modal-window.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-body {
+  background-color: var(--modal-background);
+  border-radius: 4px;
+  min-width: 408px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
 /* Section Features*/
