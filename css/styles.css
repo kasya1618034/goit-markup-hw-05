@@ -574,10 +574,20 @@ body {
 }
 
 .button-close:hover,
-.button-close:active {
+.button-close:focus {
   background-color: var(--pressed-state);
   border: none;
+}
 
+.button-close-icon {
+  transition-property: fill;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
+}
+
+.button-close-icon:hover,
+.hero-button:focus {
+  background-color: var(--white);
 }
 
 /* portfolio */
