@@ -571,7 +571,13 @@ body {
   transition-property: background-color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
-  
+}
+
+.button-close:hover,
+.button-close:active {
+  background-color: var(--pressed-state);
+  border: none;
+
 }
 
 /* portfolio */
