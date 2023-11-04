@@ -616,6 +616,9 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   padding: 12px 24px;
+  transition-property: color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .filters-btn:hover,
@@ -648,6 +651,7 @@ body {
   position: relative;
   overflow: hidden;
   display: inline-block;
+
 }
 
 .link-overlay {
@@ -681,6 +685,9 @@ body {
 
 .cards-item .link {
   display: block;
+  transition-property: box-shadow;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 .cards-item .link:hover,
