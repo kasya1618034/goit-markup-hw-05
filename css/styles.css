@@ -686,7 +686,7 @@ container.card-image {
   overflow: hidden;
 }
 
-.overlay {
+.card-image-overlay {
   position: absolute;
   top: 0;
   font-size: 16px;
