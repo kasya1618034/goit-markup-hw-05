@@ -417,7 +417,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--subtle-text);
-  transition-property: border-color;
+  transition-property: border-color, color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
