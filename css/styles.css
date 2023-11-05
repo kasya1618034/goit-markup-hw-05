@@ -701,6 +701,7 @@ container.card-image {
   transition-property: transform;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
+  visibility:hidden;
 }
 
 .portfolio-headline {
