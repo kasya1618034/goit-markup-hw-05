@@ -588,7 +588,7 @@ body {
 
 .button-close:hover .button-close-icon,
 .button-close:focus .button-close-icon {
-  background-color: var(--white);
+  fill: var(--white);
 }
 
 /* portfolio */
