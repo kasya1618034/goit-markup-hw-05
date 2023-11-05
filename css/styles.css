@@ -569,7 +569,7 @@ body {
   background-color: var(--accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition-property: background-color;
+  transition-property: background-color, border;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
@@ -586,8 +586,8 @@ body {
   transition-timing-function: var(--tr-fn);
 }
 
-.button-close-icon:hover,
-.hero-button-icon:focus {
+.button-close:hover .button-close-icon,
+.button-close:focus .button-close-icon {
   background-color: var(--white);
 }
 
