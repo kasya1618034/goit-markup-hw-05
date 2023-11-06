@@ -110,6 +110,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   padding: 24px 0;
+  display: inline-block;
   transition-property: color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
@@ -417,7 +418,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--subtle-text);
-  transition-property: border-color, color;
+  transition-property: color;
   transition-duration: var(--tr-duration);
   transition-timing-function: var(--tr-fn);
 }
